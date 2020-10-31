@@ -1,0 +1,138 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  min-width: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 9%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 11%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.hiddenBox {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: red;
+}
+
+.green {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: green;
+}
+
+.buttonSpace {
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  width: 100%;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+button {
+  width: 25%;
+  padding: 10px 24px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: green;
+}
